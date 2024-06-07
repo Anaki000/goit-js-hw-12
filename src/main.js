@@ -38,6 +38,7 @@ async function onFormSubmit(e) {
       );
       return;
     }
+    
     imageTemplate(data);
   } catch (err) {
     showError(err);
